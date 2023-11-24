@@ -1,12 +1,12 @@
 body{
-    background-image: url(/Assets/background-image.png);
+    background-image: url(background-image.png);
  background-size: 100vw 70vh;
  background-repeat: no-repeat;
 
  
 }
 .grand{
-    background-image: url(/Assets/hero-image.png);
+    background-image: url(hero-image.png);
    
    height: 100%;
        background-repeat: no-repeat;
