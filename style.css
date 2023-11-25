@@ -1,132 +1,118 @@
-body{
-    background-image: url(background-image.png);
- background-size: 100vw 70vh;
- background-repeat: no-repeat;
-
- 
+body {
+    margin-top: 15px;
+  background-image: url(background-image.png);
+  background-size: 100vw 70vh;
+  background-repeat: no-repeat;
 }
-.grand{
-    background-image: url(hero-image.png);
-   
-   height: 100%;
-       background-repeat: no-repeat;
-       background-position: right top  ;
-}
-
-.parent{
-    display: flex;
-    justify-content: space-around;
- 
-  
+.grand {
+  background-image: url(hero-image.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 2vh;
+  background-attachment: fixed;
 }
 
-.nav{
-    display: flex;
+.parent {
+  display: flex;
+  justify-content: space-around;
 }
 
-.service{
-    background-color: deeppink;
-    color: white;
-   vertical-align: top;
-   font-size: 12px;
-   padding: 1vh 1vw;
-   border-radius: 5px;
-   border-color: deeppink;
-  
-}
-a{
-    font-weight: 600;
-    padding-left: 20px;
-    text-decoration: none;
-    color: rgb(38, 38, 38);
+.nav {
+  display: flex;
 }
 
-.car{
-    
-    display: flex;
-    justify-content: center;
-    
-    
+.service {
+  background-color: deeppink;
+  color: white;
+  vertical-align: top;
+  font-size: 12px;
+  padding: 1vh 1vw;
+  border-radius: 5px;
+  border-color: deeppink;
+}
+a {
+  font-weight: 600;
+  padding-left: 20px;
+  text-decoration: none;
+  color: rgb(57, 57, 57);
 }
 
-.car img{
-    margin-right: 1vw;
-}
-.car button{
-    border-radius: 60px;
-    padding: 1vh 0.5vw 1vh 0.5vw;
-    font-size: 16px;
-    align-items: center;
-    display: flex;
-    box-shadow: 0px 3px 3px 0px rgb(71, 71, 71);
-    color: rgb(53, 53, 53);
-    
-
-}
-.loan img{
-    margin-right: 1vw;
+.car {
+  display: flex;
+  justify-content: center;
 }
 
-.loan button{
-    border-radius: 60px;
-    padding: 1vh 1vw 1vh 1vw;
-    font-size: 15px;
-    align-items: center;
-    display: flex;
-    box-shadow: 4px 4px 4px 4px rgb(112, 112, 112);
-    color: rgb(53, 53, 53);
+.car img {
+  margin-right: 0.5vw;
+}
+.car button {
+  border-radius: 60px;
+  padding: 1vh 0.3vw 1vh 0.3vw;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  box-shadow: 0px 3px 3px 0px rgb(71, 71, 71);
+  color: rgb(53, 53, 53);
+}
+.loan img {
+  margin-right: 0.3vw;
 }
 
-.block{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 8%;
-    margin-right: 7%;
-    margin-top: 2%;
+.loan button {
+  border-radius: 60px;
+  padding: 1vh 0.3vw 1vh 0.3vw;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  box-shadow: 4px 4px 4px 4px rgb(112, 112, 112);
+  color: rgb(53, 53, 53);
 }
 
+.block {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
 
-.foot{
-    display: flex;
-   
-    margin: 7% 0px 0px 8%;
-   
+.foot {
+  display: flex;
+
+  margin: 8% 0px 0px 8%;
 }
 .foot img {
-    padding: 0px 15px 0px 0px;
+  padding: 0px 15px 0px 0px;
 }
 
-.dream h1{
-    font-size: 9vh;
-    font-weight: 900;
+.dream h1 {
+  font-size: 9vh;
+  font-weight: 900;
 }
 
-p{
-   margin-top: 6vh;
-    font-size: larger;
-    color: rgb(65, 64, 64);
-    word-spacing: 1vw;
-    line-height: 3vh;
+p {
+  margin-top: 6vh;
+  font-size: larger;
+  color: rgb(78, 78, 78);
+  word-spacing: 1vw;
+  line-height: 3vh;
 }
 
-.apply{
-    font-size: 16px;
-   background-color: deeppink;
-   padding: 1vh 2vw 1vh 2vw;
-   border-radius: 5px;
-   color: white;
-   border-color: deeppink;
-
+.apply {
+  font-size: 15px;
+  background-color: deeppink;
+  padding: 1vh 2vw 1vh 2vw;
+  border-radius: 5px;
+  color: white;
+  border-color: deeppink;
 }
 
-.calcul{
-    margin-inline-start: 1vw;
-    font-size: 16px;
-   background-color: rgb(253, 253, 253);
-   padding: 1vh 2vw 1vh 2vw;
-   border-radius: 5px;
-   color: deeppink;
-   border-color: deeppink;
-
+.calcul {
+  margin-inline-start: 0.8vw;
+  font-size: 15px;
+  background-color: rgb(253, 253, 253);
+  padding: 1vh 1vw 1vh 1vw;
+  border-radius: 5px;
+  color: deeppink;
+  border-color: deeppink;
 }
-
